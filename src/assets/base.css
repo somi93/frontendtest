@@ -1,0 +1,41 @@
+:root {
+  --vt-c-primary: #ddd;
+  --vt-c-secondary: #222;
+  --vt-c-accent: #eee;
+  --section-gap: 16px;
+  --padding-gap: 4px;
+  --margin-gap: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: monospace;
+}
+
+html{
+  font-size: 10px;
+}
+@media (min-width: 600px) {
+  html{
+    font-size: 12px;
+  }
+}
+@media (min-width: 1280px) {
+  html{
+    font-size: 14px;
+  }
+}
+@media (min-width: 1920px) {
+  html{
+    font-size: 16px;
+  }
+}
+@media (min-width: 2560px) {
+  html{
+    font-size: 18px;
+  }
+}

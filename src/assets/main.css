@@ -1,0 +1,46 @@
+@import './base.css';
+
+main {
+    margin-top: var(--section-gap);
+}
+
+.container {
+    width: 1600px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.f-row {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.f-col {
+    padding: 4px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: var(--vt-c-accent);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: var(--vt-c-accent);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: var(--vt-c-primary);
+}
